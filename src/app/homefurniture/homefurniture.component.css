@@ -1,0 +1,24 @@
+h4{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ mat-form-field{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ mat-slider{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .gh{
+    height:30px;
+ }
+ mat-label{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }

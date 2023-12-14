@@ -1,0 +1,298 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "json-server",
+      "password": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "name": "typicode"
+    }
+  ],
+  "mens": [
+    {
+      "productName": "",
+      "productImg": "",
+      "Discount": "",
+      "Mrp": "",
+      "Description": "",
+      "rating": "",
+      "waranty": "",
+      "ProductDetails": "",
+      "id": 1
+    }
+  ],
+  "womens": [
+    {
+      "productName": "",
+      "productImg": "",
+      "Discount": "",
+      "Mrp": "",
+      "Description": "",
+      "rating": "",
+      "waranty": "",
+      "ProductDetails": "",
+      "id": 1
+    }
+  ],
+  "baby": [
+    {
+      "productName": "",
+      "productImg": "",
+      "Discount": "",
+      "Mrp": "",
+      "Description": "",
+      "rating": "",
+      "waranty": "",
+      "ProductDetails": "",
+      "id": 1
+    }
+  ],
+  "furniture": [
+    {
+      "productName": "",
+      "productImg": "",
+      "Discount": "",
+      "Mrp": "",
+      "Description": "",
+      "rating": "",
+      "waranty": "",
+      "ProductDetails": "",
+      "id": 1
+    }
+  ],
+  "Appliances": [
+    {
+      "productName": "",
+      "productImg": "",
+      "Discount": "",
+      "Mrp": "",
+      "Description": "",
+      "rating": "",
+      "waranty": "",
+      "ProductDetails": "",
+      "id": 1
+    }
+  ],
+  "electronics": [
+    {
+      "brand": "SONY",
+      "productName": "Sony",
+      "productImg": "https://i5.walmartimages.com/asr/56818795-a5e2-4f00-9a78-e3a74f7ea649.c5d9f366e36a247d47e189810f384682.jpeg",
+      "Discount": "22",
+      "Mrp": "2499",
+      "Description": "sony TUF Gaming F15 - AI Powered Gaming Core i5 11th Gen 11260H - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 2050/144 Hz/70 W) FX506HF-HN075W Gaming Laptop  (15.6 Inch, Graphite Black, 2.30 kg)",
+      "rating": "3",
+      "waranty": "1",
+      "ProductDetails": "Thin, Light and PowerfulThe IdeaPad gaming is designed for gaming on the go, its thin and light design ensures that no matter where you go you can take your powerful game machine with you. Now whether it’s college, office or even the airport be assured your device has sturdiness as well as portability because this device is a MIL-STD-810G Qualified Design for various Military specification tests",
+      "id": 1
+    },
+    {
+      "brand": "Lenovo",
+      "productName": "ideapad gaming 3",
+      "productImg": "https://th.bing.com/th/id/R.05d90b729969fa756963459bcf831ac5?rik=UUvA4CB5bW0CIg&riu=http%3a%2f%2fimages.techhive.com%2fimages%2farticle%2f2013%2f08%2fideapad-z400-touch-front-100050431-orig.png&ehk=QnOFexC9yszw2fynvVQfQVJy84JdMc9gDU2C4bCCWTA%3d&risl=&pid=ImgRaw&r=0",
+      "Discount": 20,
+      "Mrp": 44999,
+      "Description": "Lenovo IdeaPad Gaming 3 Intel Core i5 11th Gen 11300H - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX 1650/120 Hz) 15IHU6 Gaming Laptop  (15.6 Inch, Shadow Black, 2.25 kg)",
+      "rating": 4,
+      "waranty": 2,
+      "ProductDetails": "Thin, Light and PowerfulThe IdeaPad gaming is designed for gaming on the go, its thin and light design ensures that no matter where you go you can take your powerful game machine with you. Now whether it’s college, office or even the airport be assured your device has sturdiness as well as portability because this device is a MIL-STD-810G Qualified Design for various Military specification tests",
+      "id": 2
+    },
+    {
+      "brand": "Asus",
+      "productName": "ASUS TUF Gaming F15",
+      "productImg": "https://th.bing.com/th/id/OIP.rVvBD3YUpsDETjrQ6ZgVvwHaFk?rs=1&pid=ImgDetMain",
+      "Discount": 15,
+      "Mrp": 65999,
+      "Description": "ASUS TUF Gaming F15 - AI Powered Gaming Core i5 11th Gen 11260H - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 2050/144 Hz/70 W) FX506HF-HN075W Gaming Laptop  (15.6 Inch, Graphite Black, 2.30 kg)",
+      "rating": 4,
+      "waranty": 3,
+      "ProductDetails": " In the vast sea of gaming laptops, the ASUS TUF Gaming F15 emerges as the beacon of excellence, blending unparalleled power with unmatched durability. Whether you’re a gaming pro or just stepping into the arena, this is the ally you’ve been waiting for. Welcome to the next level.",
+      "id": 3
+    },
+    {
+      "brand": "DELL",
+      "productName": "DELL Inspiron Core i3 11th Gen 1115G4 ",
+      "productImg": "https://th.bing.com/th/id/OIP.ADjoUOy8GMryL7mgRCfvnwHaE3?rs=1&pid=ImgDetMain",
+      "Discount": 15,
+      "Mrp": 45999,
+      "Description": "DELL Inspiron Core i3 11th Gen 1115G4 - (8 GB/512 GB SSD/Windows 11 Home) INSPIRON 3511 Notebook  (15.6 Inch, Platinum Silver, 1.8 Kg, With MS Office)",
+      "rating": 4,
+      "waranty": 3,
+      "ProductDetails": " In the vast sea of gaming laptops, the ASUS TUF Gaming F15 emerges as the beacon of excellence, blending unparalleled power with unmatched durability. Whether you’re a gaming pro or just stepping into the arena, this is the ally you’ve been waiting for. Welcome to the next level.",
+      "id": 4
+    },
+    {
+      "brand": "Gamepad",
+      "productName": "Ant Esports GP325 Wireless Bluetooth Gamepad  (Black - Red, For PC, Android, iOS, PS3, PS4, PC)",
+      "productImg": "https://i.pinimg.com/originals/d4/45/73/d445736ba356df3c6c793283ca3477bb.jpg",
+      "Discount": 15,
+      "Mrp": 1599,
+      "Description": "PUBG Mobile, Mario Kart, World of Tanks",
+      "rating": 4,
+      "waranty": 1,
+      "ProductDetails": "This Ant Esports GP325 Wireless Bluetooth Gamepad is suitable for Cloud Gaming and PD remote play. It is compatible with Switch, Mac, Apple TV, Android Smartphone, Tablet, Chromebook, Windows 7/8/10/11, PS3, PS4, Xbox X/S, and Xbox One series to enjoy gaming on this gamepad. You can connect this gamepad to any system to experience intense gaming with your friends and family",
+      "id": 5
+    },
+    {
+      "brand": "Gaming Mouse",
+      "productName": "Bestor Ultra-Low Friction Gaming Mouse Mat, Anti-Slip Base, High Durability, Waterproof Mousepad  (Black, Red)",
+      "productImg": "https://m.media-amazon.com/images/I/61jT9jZW63L._SX569_.jpg",
+      "Discount": 15,
+      "Mrp": 1999,
+      "Description": "Bestor Mouse Pad is ideal for gamers, graphic designers, or anyone who uses a mouse for long sessions. High-quality cloth surface promotes smooth mouse gliding and enhanced precision. Steady, thick, rubberized base keeps mouse pad in place.High Defination Printed Mouse Pad With Non Slipped. It is made by Polyster Cloth",
+      "rating": 4,
+      "waranty": 1,
+      "ProductDetails": "Ultra-Low Friction Gaming Mouse Mat, Anti-Slip Base, High Durability, Waterproof",
+      "id": 6
+    },
+    {
+      "brand": "Flipkart",
+      "productName": "Flipkart SmartBuy FKSBCPK17 2 Fan Cooling Pad  (Charcoal Black)",
+      "productImg": "https://rukminim2.flixcart.com/image/612/612/xif0q/cooling-pad/z/h/d/fksbcpk17-flipkart-smartbuy-original-imagrpra6uudn8xx.jpeg?q=70",
+      "Discount": 15,
+      "Mrp": 45999,
+      "Description": "These pads offer an efficient solution to manage and regulate the temperature of laptops, ensuring optimal performance and prolonged device lifespan.Many cooling pads are adjustable, allowing users to find their preferred angle for comfortable typing and viewing. Some models even incorporate additional features such as adjustable fan speeds, built-in USB hubs, and LED lighting for a customizable and stylish experience.cooling pads are indispensable tools that promote optimal laptop performance and longevity by effectively managing heat buildup. With their thoughtful design, customizable features, and ease of use, cooling pads provide a practical solution to maintain a laptop's temperature, ensuring smooth and uninterrupted computing experiences.Specifications",
+      "rating": 4,
+      "waranty": 3,
+      "ProductDetails": " ",
+      "id": 7
+    },
+    {
+      "brand": "SpinBot",
+      "productName": "SpinBot GS-1P Gaming Accessory Kit  (Black, For Android, iOS)",
+      "productImg": "https://m.media-amazon.com/images/S/aplus-media/sc/b6619ecc-0f6a-485f-923c-e8e2307271e4.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+      "Discount": 15,
+      "Mrp": 45999,
+      "Description": "SpinBot E-sports finger sleeves are made out ofsuperconducting carbon fiber along with ultra-thin spandex and ultra-breathablecotton, which is as thin as 0.25mm. Adapt to differentfingers, fit comfortably without tightness. Carbonfiber tight weaving provides greater breathability, increases finger and aircontact surface.",
+      "rating": 4,
+      "waranty": 3,
+      "ProductDetails": "1 Pair Finger Sleeves ( 2 Pieces ) For Mobile Games Like PUBG,BGMI,COD,Free Fire, Carry Box",
+      "id": 8
+    },
+    {
+      "brand": "SAMSUNG",
+      "productName": "SAMSUNG Galaxy F13 (Nightsky Green, 64 GB)  (4 GB RAM)",
+      "productImg": "https://th.bing.com/th/id/OIP.0yNU56KBLw6H3eoAs78S3wHaHa?rs=1&pid=ImgDetMain",
+      "Discount": 15,
+      "Mrp": 45999,
+      "Description": "Enjoy seamless connectivity and an uninterrupted movie marathon with the impressive Samsung Galaxy F13 that is designed specifically to impress the entertainment fanatics. This smartphone features a terrific 16.62 cm (6.6) FHD+ LCD Display that can effortlessly blow your mind with its incredible performance. Furthermore, this phone boasts a 50 MP Triple Camera setup that allows you to capture awesomeness with a gentle tap. Moreover, the Samsung Galaxy F13 sports up to 8 GB of RAM and features an innovative RAM plus technology that taps into the phone’s internal storage to elevate its performance.",
+      "rating": 4,
+      "waranty": 3,
+      "ProductDetails": "Handset, Travel Adapter, Data Cable (A to C), Ejection Pin, Quick Start Guide ",
+      "id": 9
+    },
+    {
+      "brand": "REDMI",
+      "productName": "REDMI 12 (Moonstone Silver, 128 GB)  (4 GB RAM)",
+      "productImg": "https://www.gizmochina.com/wp-content/uploads/2023/07/Screenshot-2023-07-13-180624.png",
+      "Discount": 15,
+      "Mrp": 45999,
+      "Description": "This Redmi 12 is a smartphone with various advantages. It comes with 128 GB of storage that can be expanded up to 1 TB, as well as 12 GB of RAM that helps to run the phone seamlessly. This phone is IP53 rated and has Corning Gorilla glass which makes the phone highly durable. It is powered by a MediaTek G88 processor that helps enhance the overall performance. The crystal clear50 MP camera lets you capture incredible photos and videos. With an exquisite glass finish, MIUI Dialer, and a powerful 5000 mAh battery, this phone lets you stay productive all the time.",
+      "rating": 4,
+      "waranty": 3,
+      "ProductDetails": "5000 mAh Enormous Battery Watch uninterrupted entertainment anywhere without the worry about a draining battery as this phone is powered by a large 5000 mAh battery. The 18 W fast charger available along with this device ensures you stay connected with your closed ones.",
+      "id": 10
+    },
+    {
+      "brand": "vivo",
+      "productName": "vivo T2x 5G (Aurora Gold, 128 GB)  (8 GB RAM)",
+      "productImg": "https://m.media-amazon.com/images/I/51idoKgAbkL._SY606_.jpg",
+      "Discount": 15,
+      "Mrp": 45999,
+      "Description": "With the superb Vivo T2x 5G, you can take advantage of great pictures and a flawless user experience. With the Vivo T2x 5G, you can experience exceptional performance owing to its 7 nm 5G CPU, the octa-core Dimensity 6020, with a top clock speed of 2.2 GHz. Additionally, the 50 MP main camera on this smartphone beautifully catches every detail you see. Additionally, Super Night Selfie employs noise cancellation technology in conjunction with an Aura Screen Light to produce a calming light that is effective in low light. The pioneering Extended RAM 3.0 technology also uses ROM to expand RAM with a maximum capacity of 8 GB. This enables smooth app switching and allows up to 27 active applications to run in the background.",
+      "rating": 4,
+      "waranty": 3,
+      "ProductDetails": "Incredible Camera Setup This smartphone's 50 MP primary camera captures every detail you see in stunning pictures. You can rely on this phone's image processing to generate razor-sharp photographs with intricate details in any lighting condition. Moreover, this phone's multi-frame denoising feature makes it possible to take crystal-clear, gorgeous portrait photos. Additionally, it can adjust bokeh effects to fit various point lighting.",
+      "id": 11
+    },
+    {
+      "brand": "POCO",
+      "productName": "POCO M6 Pro 5G (Power Black, 128 GB)  (6 GB RAM)",
+      "productImg": "https://m.media-amazon.com/images/I/51KXP7nN84L._AC_SS450_.jpg",
+      "Discount": 15,
+      "Mrp": 45999,
+      "Description": "This Poco M6 Pro 5G is a resourceful smartphone helping you to carry out a horde of tasks effortlessly. Equipped with a 4nm Snapdragon processor, Turbo RAM for quick multitasking, 50 MP Dual AI Camera, and 5000 mAh mammoth battery capacity, this phone can be your best companion for all your voyages. It has a premium glass design that comes in a 16.24 cm (6.79) display and has a 90 Hz refresh rate for seamless navigation.",
+      "rating": 4,
+      "waranty": 3,
+      "ProductDetails": "Turbo RAM for Multitasking You can now multitask with ease with the Turbo RAM feature available in this phone. With the Turbo RAM feature, optimising is quick and easy. You get up to 12 GB RAM (6 GB LPDDR4X + 6 GB Virtual) on the top variant of this phone.",
+      "id": 12
+    },
+    {
+      "brand": "MOTOROLA",
+      "productName": "MOTOROLA Edge 40 Neo (Soothing Sea, 128 GB)  (8 GB RAM)",
+      "productImg": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2023/05/2023_MOTOROLA-EDGE-40_ROW_Basicpack_Nebula-Green_PDPHERO-1-620x620.jpeg",
+      "Discount": 15,
+      "Mrp": 45999,
+      "Description": "In a world where innovation meets style and sustainability, the Motorola Edge 40 Neo stands out. Elevate your mobile experience with a device that's designed to keep up with your lifestyle. It's more than a phone; it's a statement. Choose the future – choose the Motorola Edge 40 Neo.",
+      "rating": 4,
+      "waranty": 3,
+      "ProductDetails": "Premium Vegan Leather Finish Crafted in collaboration with the renowned Pantone Color Institute, you have a trio of distinctive options. Opt for the sleek and durable elegance of Pantone Black Beauty, combined with acrylic for a lightweight touch. Alternatively, explore the vibrant world of Pantone Caneel Bay or Pantone Soothing Sea, both featuring vegan leather for a soft and easy-to-grip experience. Whichever path you choose, your style is uniquely defined. ",
+      "id": 13
+    },
+    {
+      "brand": "Google Pixel",
+      "productName": "Google Pixel 8 Pro (Obsidian, 128 GB)  (12 GB RAM)",
+      "productImg": "https://th.bing.com/th/id/OIP.MLodvuN_nMaSWr0yKyhLOAAAAA?w=438&h=593&rs=1&pid=ImgDetMain",
+      "Discount": 15,
+      "Mrp": 45999,
+      "Description": "Stay productive throughout the day with this Pixel 8 Pro smartphone that brings you a multitude of impressive and useful features. Built over a powerful chipset and custom-designed with Google AI for splendid photo and video features, this smartphone is a game changer. With a 6.2-inch high-resolution display, this phone displays sharp and clear content. The Audio Magic Eraser uses Google AI to reduce distracting sounds. The phone is designed with safety features to quickly help you respond in emergency situations. With IP68 protection, the phone can handle dust and spills efficiently. Turning on the Extreme Battery Saver mode can help run your phone’s battery for up to 72 hours.",
+      "rating": 4,
+      "waranty": 3,
+      "ProductDetails": "The Power Behind Google AI on Pixel The Google Tensor G3 is Pixel's most powerful chip yet. It's custom-designed with Google AI for cutting-edge photo and video features and smarter ways to help throughout the day. And it makes the Pixel 8 Pro super fast and efficient.",
+      "id": 14
+    },
+    {
+      "brand": "APPLE",
+      "productName": "APPLE iPhone 13 (Starlight, 128 GB)",
+      "productImg": "https://th.bing.com/th/id/OIP.9u9ZNcq2tTDLQ46o2_dtWAAAAA?w=400&h=400&rs=1&pid=ImgDetMain",
+      "Discount": 15,
+      "Mrp": 45999,
+      "Description": "iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity. Furthermore, the lightning-fast A15 Bionic chip allows for seamless multitasking, elevating your performance to a new dimension. A big leap in battery life, a durable design, and a bright Super Retina XDR display facilitate boosting your user experience.",
+      "rating": 4,
+      "waranty": 3,
+      "ProductDetails": "Cinematic Mode Automatically create beautiful depth effects and focus transitions in your videos. Bring a new level of storytelling to the scenes you shoot. ",
+      "id": 15
+    },
+    {
+      "brand": "BlitzWolf®",
+      "productName": "BW-UP1 USB 3.0 Flash Drive Aluminium Alloy Pendrive 360° Rotating Cover Thumb Drive U Disk 32GB Portable Flash Drive - 32GB",
+      "productImg": "https://imgaz3.staticbg.com/thumb/view/oaupload/banggood/images/0B/21/9b26b594-0fae-447b-b0ff-0532b6608cc1.jpg",
+      "Discount": 12,
+      "Mrp": 1299,
+      "Description": ". Multiple Storage Capacities, store a large number of songs, images, videos, and files, satisfy your various demands.  6. Flexible 360°Rotation. Match and connect to your computer conveniently.  7. Exquisite Appearance + Compact Size + Comfortable Handling.  8. Premium Aluminium Alloy Material. Premium Aluminium Alloy Material.  9. Universal Compatibility.",
+      "rating": 4,
+      "waranty": 1,
+      "ProductDetails": "1. BlitzWolf®BW-UP1 USB Flash Drive, 32/64GB for you to choose. 32/64GB for you to choose.  2. USB3.0 Super-fast Transmission, backward compatible with USB 2.0; Achieve speedy data reading and files transmission effectively.  3. OTG Function, plug BW-UP1 to your mobile phone via an OTG adapter to transfer data to and from your phone. Note: The mobile phone system must be Android 4.0 + , and it must support OTG function.  4. Fluorescent Indicator.",
+      "id": 16
+    }
+  ],
+  "user": [
+    {
+      "username": "babu26440",
+      "password": "Babu@123",
+      "email": "jb2467382@gmail.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true,
+      "id": 1
+    }
+  ],
+  "masterPassword": [
+    {
+      "id": 1,
+      "Industry": "Veggies Market",
+      "password": "Babu@123"
+    }
+  ]
+}

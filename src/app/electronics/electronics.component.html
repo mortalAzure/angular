@@ -1,0 +1,11 @@
+  <mat-card >
+    <div> 
+     <mat-form-field appearance="outline">
+      <input matInput placeholder="search" [(ngModel)]="searchText">
+      <mat-icon matSuffix mat-mini-fab>search</mat-icon>
+      </mat-form-field>
+      </div>
+      <mat-card-content class="d-flex flex-wrap justify-content-around"> 
+  <app-buttons [item]="prod"  *ngFor="let prod of gadgets|search:searchText"></app-buttons>
+</mat-card-content>
+</mat-card>

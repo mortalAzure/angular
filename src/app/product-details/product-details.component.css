@@ -1,0 +1,36 @@
+.book-card{
+    min-width: 250px;
+    width:100px;
+    border: 1px solid rgb(162, 189, 166);
+    /* background-color: aliceblue; */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* .book-thumbnail{
+    width:100px;
+    border-radius: 10px;
+
+} */
+    /* .btn-theme{
+        border-radius: 2px;
+        padding:3px;
+        border:1px solid;
+        background-color: rgb(239, 237, 236);
+        height:fit-content;
+        width:fit-content
+
+    } */
+
+img{
+    height: 250px;
+
+}
+
+.dd{
+     
+     border-radius: 20px;
+     padding: 10px;
+     box-sizing:initial;
+ color: lightcyan;
+ 
+}

@@ -1,0 +1,22 @@
+.price-details{
+    min-width: 250px;
+    width:100px;
+    border: 1px solid white;
+    /* background: linear-gradient(to top,rgb(26, 26, 83) 50%,rgb(82, 104, 3) 90%)no-repeat; */
+    background-color: aliceblue;
+
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+/* span{
+    margin-right: 10px;
+} */
+/* b{
+    color: cornsilk;
+} */
+
+.dd{
+    max-width: 540px;
+    border: 2px solid rgb(55, 111, 38);
+}

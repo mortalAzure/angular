@@ -1,0 +1,20 @@
+<mat-card style="border: 1px solid black;">
+                  <div class="d-flex justify-content-center mt-5 " >
+                  <img src="https://th.bing.com/th/id/R.cb49ecaddd1ccb6ec7366a92a9534ade?rik=xtasy2qIc6v%2bbA&riu=http%3a%2f%2fstatic1.squarespace.com%2fstatic%2f61ee14bc42a9053f8608cdfc%2ft%2f61ee1a8c3395a91145b7f893%2f1642994316898%2fmasterkey%2blogo_title_transparent.png%3fformat%3d1500w&ehk=R8VZPATu5dowqpiyd4baCiA%2bLLi9hH%2fgeqRRQt12%2bLI%3d&risl=&pid=ImgRaw&r=0" width="150px">
+                  </div>
+                <div class="d-flex justify-content-center " >
+                </div>
+ <mat-card-content class="mt-1">
+        <form  [formGroup]="MasterForm">
+        <mat-form-field  appearance="outline">
+        <mat-label>MasterPassword</mat-label>
+        <input matInput  formControlName="MasterKey" type="password">
+        <mat-error *ngIf="MasterForm.invalid">please enter MasterKey</mat-error>
+        </mat-form-field>
+        </form>
+ </mat-card-content>
+ <mat-card-actions class="d-flex flex-wrap justify-content-center">
+    <button mat-raised-button   (click)="submit()" >Log In</button>
+
+ </mat-card-actions>
+ </mat-card>

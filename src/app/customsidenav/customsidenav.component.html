@@ -1,0 +1,15 @@
+ 
+ <div class="sidenav-header btn btn" routerLink="" >
+    
+        <img src="https://th.bing.com/th/id/OIP.2biyaloQ6FYBxL40ytUDlgHaHb?rs=1&pid=ImgDetMain"  [width]="profilePicSize()" [height]="profilePicSize()">
+        
+    <div class="header-text"  [class.hide-header-text]="sideNaveCollapsed()">
+    <p>Babu</p>
+    </div>
+</div>
+<mat-nav-list>
+    <a mat-list-item *ngFor="let item of navdata" [routerLink]="[item.routerLink]">
+    <img [src]="item.icon" matListItemIcon>
+    <label matListItemTitle>{{item.label}}</label>
+    </a>
+</mat-nav-list>

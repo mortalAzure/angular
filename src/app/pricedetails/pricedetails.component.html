@@ -1,0 +1,24 @@
+<div class="price-details p-4 mb-10  ">
+    <div class="d-flex flex-wrap justify-content-center">
+        <span><h4>
+            <b> PRICE DETAILS</b>
+        </h4></span>
+     </div>
+
+     <div class="d-flex flex-wrap justify-content-around ">
+
+        <div>
+        <span><b>Price :</b></span><br><br>
+        <span><b>Discount  :</b></span><br><br>
+        <span><b>DeliveryCharge :</b></span><br><br><hr>
+        <span><b>Total Amount :</b></span>
+        </div>
+
+        <div>
+        <span><b>{{CartItemsPrice|currency:'INR'}}</b></span><br><br>
+        <span><b class="text-danger">{{CartItemsDiscount|currency:'INR'}}</b></span><br><br>
+        <span><b class="text-danger" >{{DeliveryCharge|currency:'INR'}}</b></span><br><br><hr>
+        <span><b class="text-success">{{CartItemsPrice-CartItemsDiscount+DeliveryCharge|currency:'INR'}}</b></span><br><br>
+        </div>
+
+        </div>

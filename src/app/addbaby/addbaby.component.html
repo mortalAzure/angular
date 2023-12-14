@@ -1,0 +1,74 @@
+<mat-card>
+    <mat-card-header>
+     ADD Baby & Kids Toys
+    </mat-card-header>
+    <mat-card-contnet>
+     <form [formGroup]="baby">
+         <div>
+             <mat-form-field appearance="outline">
+                 <mat-label>product Image</mat-label>
+                 <input matInput placeholder="Product Name" formControlName="productImg" >
+                 <mat-error *ngIf="baby.invalid">ProductImg Required</mat-error>
+             </mat-form-field>
+         <mat-form-field appearance="outline">
+             <mat-label>ProductId</mat-label>
+             <input matInput placeholder="ProductId" formControlName="id" type="number">
+             <mat-error *ngIf="baby.invalid">ProductId Required</mat-error>
+         </mat-form-field>
+         <mat-form-field appearance="outline">
+            <mat-label>Brand</mat-label>
+            <input matInput placeholder="Brand" formControlName="brand"type="number">
+            <mat-error *ngIf="baby.invalid">ProductDetails Required field</mat-error>
+        </mat-form-field>
+ 
+         <mat-form-field appearance="outline">
+             <mat-label>Product Name</mat-label>
+             <input matInput placeholder="ProductName" formControlName="productName">
+             <mat-error *ngIf="baby.invalid">productName Required</mat-error>
+         </mat-form-field>
+        </div>
+        <div>
+         <mat-form-field appearance="outline">
+             <mat-label>Discount </mat-label>
+             <input matInput placeholder="Discount" formControlName="Discount" type="number">
+             <mat-error *ngIf="baby.invalid">Discount Required field</mat-error>
+         </mat-form-field>
+         <mat-form-field appearance="outline">
+             <mat-label> MRP</mat-label>
+             <input matInput placeholder="Mrp" formControlName="Mrp"type="number">
+             <mat-error *ngIf="baby.invalid">MRP  Required field</mat-error>
+         </mat-form-field>
+       
+         <mat-form-field appearance="outline">
+             <mat-label>Description</mat-label>
+             <input matInput placeholder="Description" formControlName="Description">
+             <mat-error *ngIf="baby.invalid">Description Required field</mat-error>
+         </mat-form-field>
+        </div>
+        <div>
+   
+         <mat-form-field appearance="outline">
+             <mat-label>Rating</mat-label>
+             <input matInput placeholder="rating" formControlName="rating"type="number">
+             <mat-error *ngIf="baby.invalid">Rating Required field</mat-error>
+         </mat-form-field>
+
+         <mat-form-field appearance="outline">
+             <mat-label>waranty</mat-label>
+             <input matInput placeholder="waranty" formControlName="waranty"type="number">
+             <mat-error *ngIf="baby.invalid">waranty Required field</mat-error>
+         </mat-form-field>
+
+         <mat-form-field appearance="outline">
+             <mat-label>Product Details</mat-label>
+             <input matInput placeholder="ProductDetails" formControlName="ProductDetails"type="number">
+             <mat-error *ngIf="baby.invalid">ProductDetails Required field</mat-error>
+         </mat-form-field>
+     </div>
+     </form>
+ </mat-card-contnet>
+ <mat-card-actions>
+     <button mat-raised-button [style.background]="'Green'" (click)="post()">Save</button>
+     <button  mat-raised-button [style.background]="'Red'">Cancel</button>
+ </mat-card-actions>
+</mat-card>

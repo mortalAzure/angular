@@ -1,0 +1,23 @@
+<mat-toolbar class="mat-elevation-z3">
+    <button mat-icon-button (click)="collapsed.set(!collapsed())" >
+    <mat-icon>menu</mat-icon>
+    </button>
+    <span style="flex: 1 1 auto; overflow: hidden;"></span>
+    <button  matTooltip="Notifications" (click)="open()" class="btn btn text-info">
+    <mat-icon>notifications_active</mat-icon>
+    </button>&nbsp;
+    <button  routerLink="fav" matTooltip="Wishlist" class="btn btn text-info">
+    <mat-icon>favorite_border</mat-icon>
+    </button>&nbsp;
+    <button  matTooltip="Cart" routerLink="cart" class="btn btn text-warning">
+    <mat-icon>shopping_cart</mat-icon>
+    </button>&nbsp;
+</mat-toolbar>
+<mat-sidenav-container>
+    <mat-sidenav opened mode="side" [style.width]="sidenavWidth()">
+    <app-customsidenav [collapsed]="collapsed()"/>
+    </mat-sidenav>
+    <mat-sidenav-content class="content" [style.margin-left]="sidenavWidth()">
+    <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

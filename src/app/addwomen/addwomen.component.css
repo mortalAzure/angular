@@ -1,0 +1,29 @@
+mat-card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(9, 103, 4);
+    margin-bottom: 1%;
+}
+mat-form-field{
+    /* margin-left: 12%; */
+    margin-bottom: 1%;
+    margin-right: 2%;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+mat-card{
+    background: linear-gradient(to top,rgb(220, 169, 188) 50%,rgb(224, 232, 235) 90%)no-repeat;
+
+}
+mat-card-actions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+button{
+    width: 30%;
+}

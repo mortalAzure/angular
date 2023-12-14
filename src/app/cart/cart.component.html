@@ -1,0 +1,22 @@
+<div class="cart" >
+    <div *ngIf="!cartItems.length">
+      <div class="empty-cart d-flex flex-column align-items-center" >
+          <h1 class="text-large text-theme mb-50 ">Oops</h1>
+          <img class="cart-empty-image" src="https://th.bing.com/th/id/R.432cb178751aebf76b9166cdc4723c78?rik=vahYnC5T2xe7WA&riu=http%3a%2f%2f2.bp.blogspot.com%2f-UomRXLjNZIY%2fTrQDW38PwAI%2fAAAAAAAABQk%2f-_OjDXIr3Yw%2fs1600%2fempty_cart3.jpg&ehk=Vi62%2b1pKvxonVpsGH4dEM6KklKxnauYKJ4iuDHt%2b%2fGQ%3d&risl=&pid=ImgRaw&r=0" alt="" width="400px">
+          <h1 class="mt-4">YOU DIDN'T ADD ANY ITEM</h1>
+          <h5 class="mt-3">Add items to continue shopping </h5>
+          <button class="mt-4" (click)="goingtoshopping()" mat-raised-button *ngIf="!cartItems.length">Shop Now</button>      </div>
+     </div>
+     <div  *ngIf="cartItems.length" class="dfg">
+     <div class="me-5 dd">
+     <app-product-details [item]="Items" *ngFor="let  Items of cartItems" ></app-product-details> 
+    </div>
+          <div class="mt-2">
+    <app-pricedetails></app-pricedetails>
+      </div>
+    </div>
+  </div><br>
+  <div>
+    <button  mat-raised-button (click)="goingtoshopping()" *ngIf="cartItems.length"   >Add More Products</button>
+  </div>
+

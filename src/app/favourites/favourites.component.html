@@ -1,0 +1,24 @@
+<div class="cart " >
+    <div *ngIf="!wishlist.length">
+      <div class="empty-cart d-flex flex-column align-items-center" >
+          <h1 class="text-large text-theme mb-50 ">Oops</h1>
+          <img class="cart-empty-image" src="https://www.zolut.com/img/wishlist_empty.png?1460902528" alt="" width="300px">
+          <h1 class="mt-4">SORRY WE ARE FEELING REGREETING  YOU DIDN'T LOVE ANY ITEM</h1>
+          <!-- <h5 class="mt-3">Add items to continue shopping </h5> -->
+          <!-- <button class="mt-4" (click)="goingtoshopping()" mat-raised-button   >Shop Now</button> -->
+          </div>
+      </div>
+    <div class=" cart-content d-flex flex-wrap justify-content-between p-5" *ngIf="wishlist.length">
+      <div class="items-container me-5">
+          <app-wishlistitems [item]="wish"   *ngFor="let wish of wishlist"></app-wishlistitems>
+      </div>
+      <div>
+        <!-- <app-pricedetails></app-pricedetails> -->
+    
+      </div>
+    </div>
+  </div><br>
+  <div>
+    <button  mat-raised-button (click)="goingtoshopping()" >Add More Books</button>
+  </div>
+

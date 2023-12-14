@@ -1,0 +1,25 @@
+.cart{
+    margin: 0 75px;
+}
+.empty-cart{
+    margin-top:50px
+}
+ 
+.mb-50{
+    margin-bottom :50px
+}
+.cart-empty-image{
+width:300px
+}
+
+.dd{
+    /* border: 2px solid black; */
+    max-width: fit-content;
+    /* background-color: aliceblue; */
+}
+.dfg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
