@@ -13,7 +13,6 @@ import { MenComponent } from './men/men.component';
 import { WomenComponent } from './women/women.component';
 import { BabykidsComponent } from './babykids/babykids.component';
 import { HomefurnitureComponent } from './homefurniture/homefurniture.component';
-import { OfferzoneComponent } from './offerzone/offerzone.component';
 import { ElectronicsComponent } from './electronics/electronics.component';
 import { CartComponent } from './cart/cart.component';
 import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
@@ -111,10 +110,7 @@ const routes: Routes = [
                         },{
                             path:'furniture',
                             component:HomefurnitureComponent
-                        },{
-                            path:'offer',
-                            component:OfferzoneComponent
-                        },{
+                        } ,{
                             path:'eletr',
                             component:ElectronicsComponent
                       }]

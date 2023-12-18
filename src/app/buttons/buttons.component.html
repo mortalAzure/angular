@@ -1,17 +1,19 @@
       <mat-card >
-               <a [routerLink]="['/dash/product',item.id]"  class="btn btn">
-               <mat-card-content >
-               <img [src]="item.productImg" > 
+               <a [routerLink]="['/dash/product',item.id]" class="btn btn">
+               <mat-card-content>
+               <img [src]="item.productImg">
                </mat-card-content>
                <h3>{{item.brand|uppercase}}</h3>
                <div>
-               <div class="df">
-                <span>Price :{{item.Mrp|currency:'INR'}}</span>
+               <div class="df"><span>Price :{{item.Mrp|currency:'INR'}}</span>
                 </div>
-               </div>
- </a>         <mat-card-actions>
-            <button mat-raised-button  class="bg-dark text-light" (click)="addtofav(item)"><mat-icon>favorite_border</mat-icon>Wishlist</button> 
-            <button mat-raised-button  (click)="Addtocart(item)" class="bg-dark text-light" *ngIf="!isProdIncart"><mat-icon>shopping_cart</mat-icon>Add To Cart</button>
-            <button mat-raised-button  (click)="gotoCart()"  *ngIf="isProdIncart">Go TO Cart</button>
-              </mat-card-actions>
-              </mat-card>
+              </div>
+              </a>
+              <mat-card-actions>
+              <button mat-raised-button  class="bg-dark text-light" (click)="addtofav(item)">
+                <mat-icon>favorite_border</mat-icon>Wishlist</button>
+              <button mat-raised-button (click)="Addtocart(item)" class="bg-dark text-light" *ngIf="!isProdIncart">
+                <mat-icon>shopping_cart</mat-icon>Add To Cart</button>
+              <button mat-raised-button  (click)="gotoCart()"  *ngIf="isProdIncart">Go TO Cart</button>
+                </mat-card-actions>
+                </mat-card>

@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { AdminprofileComponent } from '../adminprofile/adminprofile.component';
+import { Component, computed, signal } from '@angular/core';
 
 @Component({
   selector: 'app-admindashboard',
@@ -15,4 +15,7 @@ profile(){
     height:'50%'
   })
 }
+
+collapsed=signal(false);
+sidenavWidth=computed(()=>this.collapsed()?'65px':'250px')
 }

@@ -41,7 +41,6 @@ import { MenComponent } from './men/men.component';
 import { WomenComponent } from './women/women.component';
 import { BabykidsComponent } from './babykids/babykids.component';
 import { HomefurnitureComponent } from './homefurniture/homefurniture.component';
-import { OfferzoneComponent } from './offerzone/offerzone.component';
 import {  CUSTOM_ELEMENTS_SCHEMA }  from '@angular/core';
 import { ElectronicsComponent } from './electronics/electronics.component';
 import { FavouritesComponent } from './favourites/favourites.component';
@@ -72,6 +71,8 @@ import {MatRadioModule} from '@angular/material/radio';
 import { OverlayModule } from '@angular/cdk/overlay'
 import { CdkMenuModule } from '@angular/cdk/menu';
 import { CustomsidenavComponent } from './customsidenav/customsidenav.component';
+import { CarouselModule } from './carousel/carousel.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -89,7 +90,6 @@ import { CustomsidenavComponent } from './customsidenav/customsidenav.component'
     WomenComponent,
     BabykidsComponent,
     HomefurnitureComponent,
-    OfferzoneComponent,
     ElectronicsComponent,
     FavouritesComponent,
     NotifcationComponent,
@@ -149,6 +149,7 @@ import { CustomsidenavComponent } from './customsidenav/customsidenav.component'
     MatRadioModule,
     OverlayModule,
     CdkMenuModule,
+    CarouselModule
 
 
 

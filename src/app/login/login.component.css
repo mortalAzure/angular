@@ -1,7 +1,7 @@
 mat-card{
     margin: 0 auto;
     margin-top:100px;
-    /* max-width: 400px; */
+    max-width: 500px;
     border-radius: 30px;
     background-color:rgb(185, 237, 105);
     margin-left: 25%;
@@ -9,21 +9,26 @@ mat-card{
     background-image: url('https://videos.brightedge.com/Images/holiday-shopping-behavior.jpg');
 background-size: 100%;
 background-position: top;
-
-
-
+max-height: 600px;
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
 }
 .a{
     font-family: 'Montserrat', sans-serif;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 20px;
+    display: flex;
+    flex-wrap:nowrap;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    justify-content: space-around;
 }
 
 .dd{
-    /* margin-left: 25%; */
     margin-top: 10%;
     margin-bottom: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
  
 form{
@@ -43,9 +48,16 @@ mat-form-field{
  mat-icon{
     color:red
  }
-/* 
+ 
  .fg{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style:oblique;
+
+ }
+ .df{
+    color: rgb(237, 239, 242);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
- } */
+    flex-wrap: nowrap;
+    justify-content:space-around; 
+ }

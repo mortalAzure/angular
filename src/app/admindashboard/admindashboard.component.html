@@ -1,39 +1,21 @@
-<mat-toolbar  >
-    <button type="button" mat-icon-button  class="btn btn text-light" matTooltip="Menu"  (click)="sidenav.toggle()">
-    <mat-icon>menu</mat-icon>
-    </button>&nbsp;
-    <div class="bg-light fgg">
-    <mat-form-field appearance="outline">
-    <input matInput placeholder="search">
-    <mat-icon matSuffix mat-mini-fab>search</mat-icon>
-    </mat-form-field>
-    </div>
-    <span style="flex: 1 1 auto; overflow: hidden; "></span>
-    <button   mat-mini-fab class="sd" matTooltip="User Interface" routerLink="/dash/home"><mat-icon>local_grocery_store</mat-icon></button>&nbsp;
-    <!-- <button class="btn btn " mat-mini-fab color="warn" matTooltip="Notifications"  ><mat-icon>notifications_active</mat-icon></button>&nbsp; -->
-    <!-- <button class="btn btn"  mat-mini-fab color="primary" routerLink="fav" matTooltip="Wishlist" ><mat-icon>favorite_border</mat-icon></button>&nbsp; -->
-    <!-- <button class="btn btn bg-success"  mat-mini-fab matTooltip="Cart" routerLink="cart"><mat-icon>shopping_cart</mat-icon></button>&nbsp; -->
-    <mat-accordion mat-mini-fab matTooltip="Profile">
-       <mat-expansion-panel hideToggle>
-         <mat-expansion-panel-header>
-           <mat-panel-title>
-    <img src="https://th.bing.com/th/id/OIP.2biyaloQ6FYBxL40ytUDlgHaHb?rs=1&pid=ImgDetMain" width="50px" class="img-fluid rounded-circle border border-dark border-1">
-           </mat-panel-title>
-           <mat-panel-description class="text-light">
-               This is a summary of the content
-             </mat-panel-description>
-         </mat-expansion-panel-header>
-         <button mat-raised-button (click)="profile()">
-               <mat-icon>settings</mat-icon> Settings</button><br>
-       </mat-expansion-panel>
-       </mat-accordion>
+<mat-toolbar class="mat-elevation-z3">
+              <button  (click)="collapsed.set(!collapsed())" class="btn btn">
+              <mat-icon>menu</mat-icon>
+              </button>
+              <span class="spacer"></span>
+              <button matTooltip="User Interface" routerLink="/dash/home" class="btn btn">
+              <mat-icon>local_grocery_store</mat-icon>
+              </button>&nbsp;
+              <button (click)="profile()"  class="btn btn">
+              <img src="https://th.bing.com/th/id/OIP.2biyaloQ6FYBxL40ytUDlgHaHb?rs=1&pid=ImgDetMain" width="50px" >
+              </button>
 </mat-toolbar>
- <mat-sidenav-container class="example-container" autosize>
-       <mat-sidenav #sidenav class="example-sidenav" mode="over">
-       <mat-nav-list>
-       </mat-nav-list>
-       </mat-sidenav>
-       <mat-card class="mt-1">
-<router-outlet></router-outlet>
-       </mat-card>
-</mat-sidenav-container>
+
+   <mat-sidenav-container>
+              <mat-sidenav opened mode="side" [style.width]="sidenavWidth()">
+              <app-adminnav [collapsed]="collapsed()"/>
+              </mat-sidenav>
+              <mat-sidenav-content class="content" [style.margin-left]="sidenavWidth()">
+              <router-outlet></router-outlet>
+              </mat-sidenav-content>
+   </mat-sidenav-container>

@@ -1,3 +1,4 @@
+import { sandwich } from './dd';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,6 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
+  sandwich=sandwich
 }
 
