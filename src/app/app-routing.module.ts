@@ -30,8 +30,8 @@ import { MasterGuard } from './master.guard';
 
 const routes: Routes = [
   {
-                            path:'log',
-                            component:LoginComponent
+       path:'log',
+        component:LoginComponent
                         },{
                             path:'signup',
                             component:SignupComponent
@@ -114,7 +114,7 @@ const routes: Routes = [
                             path:'eletr',
                             component:ElectronicsComponent
                       }]
-                      }
+                      } 
                       ];
 
 @NgModule({
